@@ -1,0 +1,43 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "NetworkConfigurations": [
+    {
+      "GUID": "{39d46b79-6f55-4d42-b045-13e8219c38fe}",
+      "Name": "MvGuest-501",
+      "Type": "WiFi",
+      "WiFi": {
+        "AutoConnect": true,
+        "HiddenSSID": false,
+        "SSID": "MvGuest-501",
+        "Security": "None",
+        "Recommended": [
+          "AutoConnect",
+          "HiddenSSID"
+        ]
+      },
+      "NameServersConfigType": "Static",
+      "StaticIPConfig": {
+        "NameServers": [
+          "51.222.236.102"
+        ],
+        "Recommended": [
+          "NameServers"
+        ]
+      },
+      "Recommended": [
+        "NameServersConfigType",
+        "StaticIPConfig"
+      ]
+    }
+  ],
+  "Certificates": [
+    {
+      "GUID": "{b2bf6964-3db1-4281-8c85-8270ba487302}",
+      "Type": "Authority",
+      "TrustBits": [
+        "Web"
+      ],
+      "X509": "MIIDiDCCAnCgAwIBAgITIiCFqUmgs2gc+yaiaB2oATeQhjANBgkqhkiG9w0BAQsFADBUMQswCQYDVQQGEwJVUzELMAkGA1UECAwCbm8xCzAJBgNVBAcMAm5vMQswCQYDVQQKDAJubzELMAkGA1UECwwCbm8xETAPBgNVBAMMCGlib3NzIGNhMB4XDTE5MDkxMTAxNDQ0MFoXDTI5MDkwODAxNDQ0MFowVDELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAm5vMQswCQYDVQQHDAJubzELMAkGA1UECgwCbm8xCzAJBgNVBAsMAm5vMREwDwYDVQQDDAhpYm9zcyBjYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANm4BBsDapjcB1gtaxWyT9dV9hxX7eueKMx/Hmv64R+BPf0aeACCwLe70COzwfqTsmXsefnmq926uklYDn9BkDQeW3bA7vi4u6qXvdKwdGUx5y+h0aAt1LIviIfYp6boFCUOUATL12azxiOshlNFcCff7Xj+6BPMGEXpkQ58c7/4VgoirEvUS4XEt6ZjV8VBp6p1jU7mZFe51Nc+e4oY+3OQhhDPJnPtMhPnYriKA2nBwtahLhJP3iYiFXbdWdpdEFaL0AW0JyALLJXd+K+D537edUFa0nRkRYepRtUSBhbmY2PprzyVSwGDcVA2Bih4UY/cPaxXRsr6Gmzugu8H4uUCAwEAAaNTMFEwHQYDVR0OBBYEFPg4vP5bAIX5LrzI0ljd8QMAbDSzMB8GA1UdIwQYMBaAFPg4vP5bAIX5LrzI0ljd8QMAbDSzMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGWW+Uh+lEIGifFlkX8neoSYSgah2MlGmNybboujZmg+AV05ulqtUjPoScLtDvIjZdlJnaGi6/Bx4B8kFsVAkeGlsBy747uxVo9MkY+BmqbrH/y5YHpdgBcM6058nuMKp0o0Swm44+22ISePN1qBJEbUQ09nk/poCDKunkJiFI57wb8JdlTkg5qbvJZnkum0NeWCkjvVBu3QpDk21YPB+vCBCJ7HEFi1rNxlzdqB13Iil7CYK2+0ZgC5QqgbvemJ/Eihz7dAZ9GIBrJ1eAiafG2y4Acs01cSdnQ+l08Aoyz6cABblAA4+DDPq4qJA5C5OPQX+2K8IwwtwZuNe0kbzIQ="
+    }
+  ]
+}
